@@ -1,14 +1,28 @@
+
+
+
+
+
+.body{
+  background-color: gainsboro;
+
+}
+
+
 .content {
 display: flex;
 align-content: center;
 justify-content: center;
-background-color: gainsboro;
+
+
 }
 .grid-container {
     display: grid;
-    grid-template-columns: 25vw 25vw 25vw 25vw;
+    grid-template-columns: 25% 25% 25% 25%;
     grid-column-gap: 20px; 
     grid-row-gap: 20px;
+    
+    width: 80%;
     
     
 
